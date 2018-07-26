@@ -5,7 +5,7 @@ import json, urllib.request
 app = Flask(__name__)
 
 #API_KEY
-api_key = "zC992yeEkw5VTye5PFJY"
+api_key = "Your API Key"
 
 @app.route('/',methods = ['GET', 'POST'])
 def getStockPrices():
